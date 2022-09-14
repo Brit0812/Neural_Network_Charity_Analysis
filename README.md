@@ -23,10 +23,10 @@ In order to take full advantage of neural networking the data must undergo prepr
   
 ![](images/attempt_1_sum.png)
 
-      * ATTEMPT # 1:
+* ATTEMPT # 1:
 
 
-      * The total of neurons was increased. In the first hidden layer, the neurons were increased to 120, the second hidden layer was increased to 50, and the epoch was increased to 120 as well.  These corrections had a huge improvement on both the loss and accuracy on the model.
+* The total of neurons was increased. In the first hidden layer, the neurons were increased to 120, the second hidden layer was increased to 50, and the epoch was increased to 120 as well. These corrections had a huge improvement on both the loss and accuracy on the model.
 
 ![](images/attempt_2_sum.png)
 
