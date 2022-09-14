@@ -8,9 +8,10 @@ In order to take full advantage of neural networking the data must undergo prepr
 
 #Results
 •	Data Preprocessing
-o	The variable that was considered the target of the model was IS_SUCCESFUL as it provides clear data on the charity donation. This makes it the dependent variable as it’s the outcome of the other columns. 
-o	The rest of the columns were considered the features for the model as they had an impact on the whether or not the charity donations were successful. This makes them the independent variable. 
-o	The columns that were removed were EIN and NAME since they hindered the data with clutter, it provided no useful input. 
+
+  * The variable that was considered the target of the model was IS_SUCCESFUL as it provides clear data on the charity donation. This makes it the dependent variable as it’s the outcome of the other columns. 
+  * 	The rest of the columns were considered the features for the model as they had an impact on the whether or not the charity donations were successful. This makes them the independent variable. 
+  * 	The columns that were removed were EIN and NAME since they hindered the data with clutter, it provided no useful input. 
 
 images of the preprocess 
 
