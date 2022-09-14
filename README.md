@@ -14,14 +14,17 @@ In order to take full advantage of neural networking the data must undergo prepr
   * The rest of the columns were considered the features for the model as they had an impact on the whether or not the charity donations were successful. This makes them the independent variable. 
   * The columns that were removed were EIN and NAME since they hindered the data with clutter, it provided no useful input. 
 
-images of the preprocess 
 
 •	Compiling, Training, and Evaluating the model
-o	For the initial neural model there were two hidden layers. The first layer had 80 neurons while the second had 30. Both layers used the relu activation function. The output layer had 1 neuron and utilized the sigmoid activation function. 
-o	None of the altered models were able to reach the 75% target, while the initial model had an accuracy of 63%. 
-•	In order to optimize the model to reach its target multiple steps were taken, the first was removing any additional noisy features(columns) such as ‘USE_CASE’ and ‘ORGANIZATION’. These 2 columns were removed since they wouldn’t provide much influence to the data.  This was applied to the following models: 
-o	ATTEMPT #1:
-	The total of neurons was increased. In the first hidden layer, the neurons were increased to 120, the second hidden layer was increased to 50, and the epoch was increased to 120 as well.  These corrections had a huge improvement on both the loss and accuracy on the model. 
+
+  * For the initial neural model there were two hidden layers. The first layer had 80 neurons while the second had 30. Both layers used the relu activation function. The output layer had 1 neuron and utilized the sigmoid activation function. 
+  * None of the altered models were able to reach the 75% target, while the initial model had an accuracy of 63%. 
+  * In order to optimize the model to reach its target multiple steps were taken, the first was removing any additional noisy features(columns) such as ‘USE_CASE’ and ‘ORGANIZATION’. These 2 columns were removed since they wouldn’t provide much influence to the data.  This was applied to the following models: 
+
+      * ATTEMPT #1:
+
+
+      * The total of neurons was increased. In the first hidden layer, the neurons were increased to 120, the second hidden layer was increased to 50, and the epoch was increased to 120 as well.  These corrections had a huge improvement on both the loss and accuracy on the model. 
 
 Image attempt 1 summary 
 
