@@ -7,11 +7,12 @@ The purpose of this project is to use of machine learning and neural networks.  
 In order to take full advantage of neural networking the data must undergo preprocessing, which transforms the data so it can be easily read into the network. After the data was transformed it will be placed into ta model that will then be trained and evaluated. Once that step is complete and a rough idea of the model’s loss and accuracy is, the model will then undergo revisions to improve its output. 
 
 #Results
+
 •	Data Preprocessing
 
   * The variable that was considered the target of the model was IS_SUCCESFUL as it provides clear data on the charity donation. This makes it the dependent variable as it’s the outcome of the other columns. 
-  * 	The rest of the columns were considered the features for the model as they had an impact on the whether or not the charity donations were successful. This makes them the independent variable. 
-  * 	The columns that were removed were EIN and NAME since they hindered the data with clutter, it provided no useful input. 
+  * The rest of the columns were considered the features for the model as they had an impact on the whether or not the charity donations were successful. This makes them the independent variable. 
+  * The columns that were removed were EIN and NAME since they hindered the data with clutter, it provided no useful input. 
 
 images of the preprocess 
 
