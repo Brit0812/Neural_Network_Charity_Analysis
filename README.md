@@ -32,13 +32,15 @@ In order to take full advantage of neural networking the data must undergo prepr
       * Another attempt to increase the accuracy of the model would be to add another hidden layer. The layers followed attempt # 1 (120, 50), rather than the initial run through (80, 30) The epoch was also increase, slightly.  This attempt didn’t improve neither the loss nor the accuracy.
       
       * ATTEMPT # 3:
-      
-	The activation function was changed from “relu” to “tanh”, with the same conditions as the first attempt. This attempt was the worst of all them all, as the accuracy plummeted to 38%. 
 
-Image attempt 3 summary
 
-o	ATTEMPT # 4 
-	The total of neurons was decreased. In the first hidden layer, the neurons were decreased to 45, the second hidden layer was increased to 15, and the epoch was increased to 135.  These alterations improved the accuracy to 71%, but the loss increased dramatically. 
+      * The activation function was changed from “relu” to “tanh”, with the same conditions as the first attempt. This attempt was the worst of all them all, as the accuracy plummeted to 38%. 
+
+
+      * ATTEMPT # 4:
+
+
+      * The total of neurons was decreased. In the first hidden layer, the neurons were decreased to 45, the second hidden layer was increased to 15, and the epoch was increased to 135.  These alterations improved the accuracy to 71%, but the loss increased dramatically. 
 
 Image attempt 4 summary
 
