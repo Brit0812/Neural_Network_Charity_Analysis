@@ -21,7 +21,7 @@ In order to take full advantage of neural networking the data must undergo prepr
   * None of the altered models were able to reach the 75% target, while the initial model had an accuracy of 63%. 
   * In order to optimize the model to reach its target multiple steps were taken, the first was removing any additional noisy features(columns) such as ‘USE_CASE’ and ‘ORGANIZATION’. These 2 columns were removed since they wouldn’t provide much influence to the data.  This was applied to the following models: 
 
-      * ATTEMPT #1:
+      * ATTEMPT # 1:
 
 
       * The total of neurons was increased. In the first hidden layer, the neurons were increased to 120, the second hidden layer was increased to 50, and the epoch was increased to 120 as well.  These corrections had a huge improvement on both the loss and accuracy on the model. 
@@ -29,7 +29,8 @@ In order to take full advantage of neural networking the data must undergo prepr
 Image attempt 1 summary 
 
       * ATTEMPT # 2:
-      * Another attempt to increase the accuracy of the model would be to add another hidden layer. The layers followed attempt # 1 (120, 50), rather than the initial run through (80, 30) The epoch was also increase, slightly.  This attempt didn’t improve neither the loss nor the accuracy. 
+   
+      Another attempt to increase the accuracy of the model would be to add another hidden layer. The layers followed attempt # 1 (120, 50), rather than the initial run through (80, 30) The epoch was also increase, slightly.  This attempt didn’t improve neither the loss nor the accuracy. 
 
 Image attempt 2 summary 
 
