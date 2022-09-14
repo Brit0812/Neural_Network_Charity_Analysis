@@ -20,29 +20,36 @@ In order to take full advantage of neural networking the data must undergo prepr
   * For the initial neural model there were two hidden layers. The first layer had 80 neurons while the second had 30. Both layers used the relu activation function. The output layer had 1 neuron and utilized the sigmoid activation function. 
   * None of the altered models were able to reach the 75% target, while the initial model had an accuracy of 63%. 
   * In order to optimize the model to reach its target multiple steps were taken, the first was removing any additional noisy features(columns) such as ‘USE_CASE’ and ‘ORGANIZATION’. These 2 columns were removed since they wouldn’t provide much influence to the data.  This was applied to the following models: 
+  
+![](images/attempt_1_sum.png)
 
       * ATTEMPT # 1:
 
 
       * The total of neurons was increased. In the first hidden layer, the neurons were increased to 120, the second hidden layer was increased to 50, and the epoch was increased to 120 as well.  These corrections had a huge improvement on both the loss and accuracy on the model.
 
+![](images/attempt_2_sum.png)
+
       * ATTEMPT # 2:
 
 
       * Another attempt to increase the accuracy of the model would be to add another hidden layer. The layers followed attempt # 1 (120, 50), rather than the initial run through (80, 30) The epoch was also increase, slightly.  This attempt didn’t improve neither the loss nor the accuracy.
       
+![](images/attempt_3_sum.png)      
+
       * ATTEMPT # 3:
 
 
       * The activation function was changed from “relu” to “tanh”, with the same conditions as the first attempt. This attempt was the worst of all them all, as the accuracy plummeted to 38%. 
 
+![](images/attempt_4_sum.png)     
 
       * ATTEMPT # 4:
 
 
       * The total of neurons was decreased. In the first hidden layer, the neurons were decreased to 45, the second hidden layer was increased to 15, and the epoch was increased to 135.  These alterations improved the accuracy to 71%, but the loss increased dramatically. 
 
-Image attempt 4 summary
+
 
 
 # Summary 
